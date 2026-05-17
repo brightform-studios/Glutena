@@ -81,8 +81,8 @@
 
 @media (min-width: 800px) {
     #calculatorModal .modal-content {
-        width: 415px;
-        min-width: 400px;
+        width: 350px;
+        min-width: 350px;
     }
 }
 
@@ -272,6 +272,8 @@ header p {
     font-size: 1.3rem;
     font-weight: bold;
     color: var(--color-brand-dark);
+    word-break: break-word;
+    white-space: normal;
 }
 
 .recipe-desc {
@@ -302,7 +304,7 @@ header p {
         font-size: 0.82rem !important;
     }
 
-    #categoryFilter > div:last-child {
+    #categoryFilter>div:last-child {
         margin-top: 1rem !important;
     }
 
@@ -461,12 +463,12 @@ header p {
 
 @media (min-width: 800px) {
     .modal-content {
-        width: 415px;
-        min-width: 400px;
+        width: 350px;
+        min-width: 350px;
     }
 
     .recipe-modal-content {
-        width: 340px;
+        width: 440px;
     }
 }
 
@@ -484,7 +486,7 @@ header p {
 .modal-content h2 {
     margin-top: 0;
     color: var(--color-brand-dark);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -519,7 +521,7 @@ header p {
     font-weight: bold;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 350px) {
     .modal-content {
         padding: 1rem 0.5rem 1rem 0.5rem;
         width: 98vw;
